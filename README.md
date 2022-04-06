@@ -1,6 +1,9 @@
 # Projetos-Iron-Hack
 # SharK Attack Dataset
 
+
+# SharK Attack Dataset
+
 The dataset includes information on shark attacks around the world, as well as data on fatality, country, year and activities practiced during the events, among other parameters.
 
 ## References
@@ -8,33 +11,6 @@ The dataset includes information on shark attacks around the world, as well as d
  
  - [Pandas Documentation](https://pandas.pydata.org/docs/index.html)
  - [Ocean Current Map](https://upload.wikimedia.org/wikipedia/commons/9/9b/Corrientes-oceanicas.png)
-
-## Documentação da API
-
-#### Retorna todos os itens
-
-```http
-  GET /api/items
-```
-
-| Parâmetro   | Tipo       | Descrição                           |
-| :---------- | :--------- | :---------------------------------- |
-| `api_key` | `string` | **Obrigatório**. A chave da sua API |
-
-#### Retorna um item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parâmetro   | Tipo       | Descrição                                   |
-| :---------- | :--------- | :------------------------------------------ |
-| `id`      | `string` | **Obrigatório**. O ID do item que você quer |
-
-#### add(num1, num2)
-
-Recebe dois números e retorna a sua soma.
-
 
 ## Appendix
 The following questions were raised to get insights from the dataset:
@@ -57,4 +33,8 @@ The western boundary current covers more areas in the northern hemisphere (1448)
 
 62% of occurrences occur in areas where western boundary currents are found;
 
+
+
+Western boundary currents map
+![Corrientes-oceanicas](https://user-images.githubusercontent.com/101371267/161887110-ba5b618b-c2fa-424a-9f29-32187dfd3312.png)
 
