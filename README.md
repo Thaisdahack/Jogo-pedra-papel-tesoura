@@ -1,4 +1,3 @@
-# Projetos-Iron-Hack
 
 
 
@@ -11,7 +10,7 @@ The dataset includes information on shark attacks around the world, as well as d
  
  - [Pandas Documentation](https://pandas.pydata.org/docs/index.html)
  - [Ocean Current Map](https://upload.wikimedia.org/wikipedia/commons/9/9b/Corrientes-oceanicas.png)
-
+ - [re — Regular expression operations](https://docs.python.org/3/library/re.html)
 ## Appendix
 The following questions were raised to get insights from the dataset:
 
