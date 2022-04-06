@@ -24,7 +24,7 @@ The following information was collected from the processed data:
 Northern Hemisphere has more occurrences (N-2338 S-2163);
 More fatal incidents occurred in the southern hemisphere (68%);
 
-The activity most recorded during the occurrences was surfing, but the most fatal was swimming with 24% of fatal cases, on the other hand surfing did not account for any occurrence;
+The activity most recorded during the occurrences was surfing, but the most fatal was swimming with 24% of fatal cases, on the other hand surfing did not account any fatal occurrence;
 
 Most incidents are not fatal, accounting for 75% of occurrences;
 
