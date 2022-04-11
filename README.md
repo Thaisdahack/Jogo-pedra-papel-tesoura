@@ -1,38 +1,38 @@
-# Projetos-Iron-Hack
-
 
 
 # SharK Attack Dataset
 
-The dataset includes information on shark attacks around the world, as well as data on fatality, country, year and activities practiced during the events, among other parameters.
+The dataset includes information on shark attack occurrences around the world. Data related to the location, fatality and activities practiced during the incidents were also addressed in the analysis.
+
+![60375-bruce-shark-marlin-png-image-high-quality](https://user-images.githubusercontent.com/101371267/162100662-56a80cdc-3bcf-40bf-a3ab-1d760838c2f7.png)
 
 ## References
 
  
  - [Pandas Documentation](https://pandas.pydata.org/docs/index.html)
  - [Ocean Current Map](https://upload.wikimedia.org/wikipedia/commons/9/9b/Corrientes-oceanicas.png)
+ - [re — Regular expression operations](https://docs.python.org/3/library/re.html)
 
-## Appendix
-The following questions were raised to get insights from the dataset:
+## Analysis approach
 
-Question 1: Which hemisphere has more ocurrences?
-Question 2: Which hemisphere has more fatalities?
-Question 3: Which activity has more fatalities?
-Question 3: How Many ocurrences happens in Western Boundary Current areas?
+The initial size of the dataset was (25723, 24). The first step was to clean the data, removing duplicate values. then the columns that would answer the proposed questions were extracted (["Country", "Fatal (Y/N)", "Activity", "Area"]].
+A mask was applied to filter only countries with more than 100 occurrences.
+Regex was used to strip special characters and do other string cleanups in the dataframe.
+The following insights were taken from the analyses, using "groupby", "loc.", "value_counts" techniques.
 
-The following information was collected from the processed data:
+## Question 1: Which hemisphere has more ocurrences?
 
-Northern Hemisphere has more occurrences (N-2338 S-2163);
-More fatal incidents occurred in the southern hemisphere (68%);
+Despite little difference the northern hemisphere has more occurrences (N-2338 / S-2163), but more fatal incidents occurred in the southern hemisphere, about 68% of the total.
 
-The activity most recorded during the occurrences was surfing, but the most fatal was swimming with 24% of fatal cases, on the other hand surfing did not account for any occurrence;
+## Question 2: Which activity has more fatalities?
 
-Most incidents are not fatal, accounting for 75% of occurrences;
+The most recorded activity during the occurrences was surfing, however, without any fatality, on the other hand the most fatal was swimming with 24% of the cases.
 
-The western boundary current covers more areas in the northern hemisphere (1448), where most occurrences occur, than in the southern hemisphere (1354);
+## Question 3: How Many ocurrences happens in Western Boundary Current areas?
 
-62% of occurrences occur in areas where western boundary currents are found;
+Western boundary currents are hot, deep, narrow, fast-flowing currents that form on the west side of ocean basins due to western intensification. They carry warm water from the tropics towards the poles.
 
+One of the analysis approaches was to relate the shark attack occurrences with the location of these currents and according to the data, 62% of the total occurrences are in places under the influence of the dynamics of these hot currents.
 
 
 Western boundary currents map
